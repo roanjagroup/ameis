@@ -1,0 +1,25 @@
+    /**
+     * Accepts invitation
+     * @author Romell Jaramilo
+     * @author Roanja <info@roanja.com> Cleaning code
+     * @param add icon fontAwesome
+     */
+
+     show_right_block_menu
+
+     modificacione
+
+     Archivos modificados por ROANJA
+
+main/inc/lib/
+
+     userportal.lib.php
+     social.lib.php
+     display.lib.php
+
+plugin
+
+add_facebook_login_button/template.tpl
+
+
+
