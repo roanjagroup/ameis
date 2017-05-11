@@ -2989,14 +2989,14 @@ ul.project_files li a i {
 }
 .caption {
 	padding: 9px 5px;
-	background: #F7F7F7
 }
 .caption p {
 	margin-bottom: 5px
 }
 .thumbnail {
-	height: 190px;
-	overflow: hidden
+	min-height: 240px;
+	overflow: hidden;
+	background: #fff;
 }
 .view {
 	overflow: hidden;
@@ -4090,4 +4090,7 @@ table thead .checkbox.radio { margin-top:-7px;margin-top:-21px; }
 #settings .row {
 	margin-right: 0px;
 	margin-left: 0px;
+}
+.mask h5 a{
+	color: #fff;
 }

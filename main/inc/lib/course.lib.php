@@ -3326,7 +3326,7 @@ class CourseManager
         $store_path = api_get_path(SYS_COURSE_PATH) . $course_info['path'];
         // image name for courses
         $course_image = $store_path . '/course-pic.png';
-        $course_medium_image = $store_path . '/course-pic85x85.png';
+        $course_medium_image = $store_path . '/course-pic-md.png';
 
         if (file_exists($course_image)) {
             unlink($course_image);
@@ -3341,7 +3341,7 @@ class CourseManager
 
         //Resize the images in two formats
         $medium = new Image($source_file);
-        $medium->resize(85);
+        $medium->resize(300);
         $medium->send_image($course_medium_image, -1, 'png');
         $normal = new Image($source_file);
         $normal->resize(400);
@@ -3363,8 +3363,8 @@ class CourseManager
         $storePath = api_get_path(SYS_COURSE_PATH) . $course_info['path'];
         // image name for courses
         $courseImage = $storePath . '/course-pic.png';
-        $courseMediumImage = $storePath . '/course-pic85x85.png';
-        $courseSmallImage = $storePath . '/course-pic32.png';
+        $courseMediumImage = $storePath . '/course-pic-md.png';
+        $courseSmallImage = $storePath . '/course-pic-sm.png';
 
         if (file_exists($courseImage)) {
             unlink($courseImage);

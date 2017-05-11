@@ -1,7 +1,7 @@
 {% block topbar %}
    {% include template ~ "/layout/topbar.tpl" %}
 {% endblock %}
-<div class="col-md-3 left_col">
+<div class="col-md-3 left_col menu_fixed">
   <div class="left_col scroll-view">
     <div class="navbar nav_title" style="border: 0;"> {{ logo }} <a href="{{ _p.web }}" class="site_title"> <span>{{portal_name}}</span></a></div>
     <div class="clearfix"></div>
